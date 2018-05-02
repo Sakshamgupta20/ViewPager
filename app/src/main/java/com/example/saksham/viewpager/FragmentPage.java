@@ -15,11 +15,11 @@ public class FragmentPage extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new Saunack();
+            return new one();
         }
         else
         {
-            return new PunyaSlock();
+            return new two();
         }
     }
 
@@ -31,11 +31,11 @@ public class FragmentPage extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return "Saunack";
+            return "Saksham";
         }
         else
         {
-            return "Punyaslock";
+            return "Gupta";
         }
     }
 }

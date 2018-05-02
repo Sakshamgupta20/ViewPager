@@ -16,8 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Saunack" />
-        <activity android:name=".PunyaSlock"></activity>
+        <activity android:name=".one" />
+        <activity android:name=".two"></activity>
     </application>
 
 </manifest>
